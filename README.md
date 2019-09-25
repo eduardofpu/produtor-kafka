@@ -34,5 +34,22 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic "Kafka_E
 bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic "Kafka_Example" --from-beginning
 ```
 
+## 1 - Startar o kafka pelo docker
+```
+export DOCKER_HOST_IP=127.0.0.1
+```
 
 
+## 2 - Run with:
+```
+docker-compose -f zk-single-kafka-single.yml up
+docker-compose -f zk-single-kafka-single.yml down
+```
+## 3 - Postman
+```
+curl: POST localhost:8081/kafka/publish
+{
+	"name":"Goku",
+	"idade":"31"
+}
+```
