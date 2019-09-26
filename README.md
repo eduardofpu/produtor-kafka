@@ -62,7 +62,7 @@ abrirá uma pagina com um script.sh   http://www.kafkatool.com/download2/kafkato
 
 1-nessa pagina clique com o botão direito e escolha salvar como
 2-copie o  arquivo kafkatoll.sh   que esta na pasta dowload e cole em outra pasta
-3-de permissão ao arquivo chmod +x kafkatoll.sh
+3-de permissão ao arquivo chmod +x kafkatool.sh
 4-./kafkatool.sh     e agora sera instalado o kafikatool no linux
 
 ```
