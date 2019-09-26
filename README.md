@@ -53,3 +53,30 @@ curl: POST localhost:8081/kafka/publish
 	"idade":"31"
 }
 ```
+
+## kafka-tools
+```
+http://www.kafkatool.com/download.html
+clicar em Linux	8 MB	Download para linux
+abrirá uma pagina com um script.sh   http://www.kafkatool.com/download2/kafkatool.sh
+
+1-nessa pagina clique com o botão direito e escolha salvar como
+2-copie o  arquivo kafkatoll.sh   que esta na pasta dowload e cole em outra pasta
+3-de permissão ao arquivo chmod +x kafkatoll.sh
+4-./kafkatool.sh     e agora sera instalado o kafikatool no linux
+
+```
+
+## Configurar kafka-tools apos rodar o docker
+```
+Cluster name: produtor-kafka_zoo1_1
+Kafka cluster Version: 2.0
+Zookeeper Host: localhost
+Zookeeper port: 2181
+chroot path: /
+Bootstrap servers: 127.0.0.1:9092
+
+clique em testar
+clique em add
+
+```
